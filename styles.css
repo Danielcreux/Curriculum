@@ -1,0 +1,163 @@
+/* RESET + FUENTE */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+body {
+    background: #e6e9ed;
+    padding: 20px;
+    color: #1f2933;
+}
+
+/* LAYOUT */
+.cv {
+    max-width: 1100px;
+    margin: auto;
+    background: #ffffff;
+    display: flex;
+    flex-direction: row;
+}
+
+/* SIDEBAR */
+.sidebar {
+    width: 32%;
+    background: #f2f4f7;
+    padding: 20px;
+}
+
+.profile-img {
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+/* LINKS */
+a {
+    color: #466b9d;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* SECCIONES SIDEBAR */
+.sidebar h3 {
+    background: #466b9d;
+    color: #fff;
+    padding: 8px;
+    font-size: 14px;
+    margin: 20px 0 10px;
+}
+
+.sidebar h4 {
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.sidebar ul {
+    padding-left: 18px;
+    margin-top: 5px;
+}
+
+.sidebar li {
+    font-size: 13px;
+    margin-bottom: 4px;
+}
+
+/* CONTENIDO */
+.content {
+    width: 68%;
+    padding: 30px;
+}
+
+header h1 {
+    background: #466b9d;
+    color: #ffffff;
+    padding: 18px;
+    margin: -30px -30px 25px -30px;
+    font-size: 26px;
+}
+
+.content h2 {
+    background: #466b9d;
+    color: #ffffff;
+    padding: 8px;
+    font-size: 16px;
+    margin: 25px 0 10px;
+}
+
+.content h3 {
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.job-title {
+    font-size: 13px;
+    font-style: italic;
+    margin-bottom: 6px;
+}
+
+.content ul {
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+.content li {
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+/* 📱 RESPONSIVE PERFECTO */
+@media (max-width: 768px) {
+
+    body {
+        padding: 0;
+    }
+
+    .cv {
+        flex-direction: column;
+    }
+
+    .sidebar,
+    .content {
+        width: 100%;
+    }
+
+    header h1 {
+        margin: 0;
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .content {
+        padding: 20px;
+    }
+
+    .sidebar {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .sidebar ul {
+        padding-left: 0;
+        list-style: none;
+    }
+
+    .sidebar li {
+        margin-bottom: 6px;
+    }
+
+    .contact p {
+        font-size: 14px;
+    }
+}
