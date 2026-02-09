@@ -1,0 +1,34 @@
+.content {
+    width: 68%;
+    padding: 30px;
+}
+
+.header h1 {
+    background: #466b9d;
+    color: white;
+    padding: 18px;
+    margin: -30px -30px 25px -30px;
+    font-size: 26px;
+}
+
+.content h2 {
+    background: #466b9d;
+    color: white;
+    padding: 8px;
+    font-size: 16px;
+    margin: 25px 0 10px;
+}
+
+.content h3 {
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.job-title {
+    font-size: 13px;
+    font-style: italic;
+}
+
+.content ul {
+    padding-left: 20px;
+}

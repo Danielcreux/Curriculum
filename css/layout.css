@@ -1,0 +1,6 @@
+.cv {
+    max-width: 1100px;
+    margin: 20px auto;
+    background: #ffffff;
+    display: flex;
+}
